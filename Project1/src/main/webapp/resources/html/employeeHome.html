@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Home</title>
+
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	crossorigin="anonymous">
+</head>
+<style>
+body {
+   background-image: url('https://wallup.net/wp-content/uploads/2018/09/29/611350-middle-earth-shadow-mordor-fantasy-adventure-action-lotr-online-lord-rings-warrior.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  color:white;  
+}
+
+
+
+ div.col{
+width: fit-content;
+ background-color:rgba(255, 255, 255, 0.5);
+ border-radius: 26px;  
+ border-color:transparent;
+ margin: 25px 25px 25px 25px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
+div.col2{
+width: fit-content;
+ background-color:rgba(255, 255, 255, 0.5);
+ border-radius: 26px;  
+ border-color:transparent;
+ margin: 25px 25px 25px 25px;
+ padding: 25px
+}
+div.card{
+width: fit-content;
+border-radius: 26px;
+margin: 25px 25px 25px 25px;
+padding: 15px; 
+border-color:transparent:
+ -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
+
+input[type=option] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
+#reimbType{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
+
+#addReimb {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
+#refreshTable {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.list-group-item{
+
+}
+</style>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class ="container-fluid" >
+			<a class="navbar-brand" href="#">One Ring Enterprises</a> <img
+				src="../resources/images/thering.gif" draggable="true"
+				alt="the one ring" width="50" height="50"
+				class="d-inline-block align-text-top">
+			<button class="navbar-toggler" type="button"
+				data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link active"
+						aria-current="page" href="http://localhost:9001/Project1/forwarding/home">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="../resources/html/mission.html
+					">Our Mission</a>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="../resources/html/contactUs.html">Contact Us</a>
+					</li>
+					
+
+
+				</ul>
+				
+
+		<form accept-charset=utf-8; style="width: 45pt; height: 20pt"
+			method="POST" action="/Project1/login/logout">
+			<input type="submit" value="Log Out" />
+		</form>
+
+	</div>
+				<a class="navbar-brand" href="#"></a> <img
+					src="http://pm1.narvii.com/6441/ebec85e78f4113af754618c89299973dd175a518_00.jpg"
+					alt="mt doom" width="50" height="50"
+					class="d-inline-block align-text-top">
+			</div>
+		
+	</nav>
+
+   <div class="login-container">
+		<h2 id="userName" style="color:white">***</h2>
+		<h3 id="userID" style="display: none">***</h3>
+		<h5 id="userRole" style="color:white">Role...coming soon</h5>
+	</div>
+
+
+	
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class = "thetable">
+     
+      <h3>Generate a Reimbursement Request</h3>
+      <br>
+		<input id="reimbAmount" type="number" step="0.01" min="0.00" placeholder="Amount" name="reimbAmount" required /><br><br>
+		<input	id="reimbDescription" type="text" placeholder="Description (250 character limit)" name="reimbDescription" /> <br><br>
+			<label for="Type">Expense Type: </label> 
+			<select name="reimbType" id="reimbType" required>
+			<option value="1">Lodging</option>
+			<option value="2">Travel</option>
+			<option value="3">Food</option>
+			<option value="4">Other</option>
+		</select><br><br>
+
+		<button id="addReimb">Add Reimbursement</button>
+		<br><br><br>
+		
+		
+	</div>
+    </div>
+    <div class="col">
+      <h3 style = "text-align:center" >Last Reimbursement Information:</h3>
+      <button id="refreshTable">Refresh</button>
+      
+      <h5 style = "background-color:red"id=message>      
+      </h5>
+      
+      	<div class="card" style="width: 85%; background:transparent">
+					<img id="receipt" src="../resources/images/receipt.jpg" class="card-img-top"
+						alt="...">
+					<div class="card-body">
+						<h5 id="activeReimbIDx" class="card-title"></h5>
+						<p class="card-text"></p>
+					</div>
+					<ul id = "cardSingle" class="list-group list-group-flush">
+						<li id="reimbIDSingle" class="list-group-item">Reimbursement ID</li>
+						<li id="reimbAmountSingle" class="list-group-item">Reimbursement Amount</li>
+						<li id="reimbSubDateSingle" class="list-group-item">Submitted Date</li>
+						<li id="reimbDescriptionSingle" class="list-group-item">Description</li>
+						<li id="reimbStatusSingle" class = "list-group-item">Status</li>
+					</ul>
+					<br><br>
+					
+				</div>
+
+
+			</div>
+    </div>
+    
+  </div>
+</div>
+
+
+	
+
+
+
+	<table id="foodList" class="table">
+		<thead>
+			<tr>
+
+				<th scope="col" style = "color:white">ID</th>
+				<th scope="col" style = "color:white">Amount</th>
+				<th scope="col" style = "color:white">Type</th>
+				<th scope="col" style = "color:white">Description</th>
+				<th scope="col" style = "color:white">Status</th>
+				<th scope="col" style = "color:white">Submitted</th>
+				<th scope="col" style = "color:white">Resolved</th>
+
+			</tr>
+		</thead>
+		<tbody id="reimbList">
+		</tbody>
+	</table>
+
+
+
+
+	<script type="text/javascript" src="/Project1/resources/js/ajaxP1.js"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+</body>
+</html>
