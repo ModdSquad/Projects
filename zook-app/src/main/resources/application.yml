@@ -52,8 +52,8 @@ logging:
 #      - org.springframework.cloud.aws.autoconfigure.context.ContextRegionProviderAutoConfiguration 
 #  datasource:
 #    url: jdbc:postgresql://datacastro.csdyaviwpvyh.us-west-1.rds.amazonaws.com/project2
-#    username: datacastro
-#    password: p4ssw0rd
+#    username: ***
+#    password: ***
 #    driver-class-name: org.postgresql.Driver
 #  jpa: 
 #    database-platform: org.hibernate.dialect.PostgreSQLDialect
@@ -69,8 +69,8 @@ logging:
 #      static: us-west-1
 #      auto: false
 #    credentials:
-#      access-key: AKIAWF5HYF4OZU3DEZ5H
-#      secret-key: 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
+#      access-key: ***
+#      secret-key: ***
 #
 #logging:
 #  level:
