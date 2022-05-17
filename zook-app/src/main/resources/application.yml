@@ -9,8 +9,8 @@ spring:
       - org.springframework.cloud.aws.autoconfigure.context.ContextRegionProviderAutoConfiguration 
   datasource:
     url: jdbc:postgresql://database.cxrczaaoj4zv.us-east-1.rds.amazonaws.com/project2
-    username: kpthellama
-    password: p4ssw0rd
+    username: ***
+    password: ***
     driver-class-name: org.postgresql.Driver
   jpa: 
     database-platform: org.hibernate.dialect.PostgreSQLDialect
@@ -27,8 +27,8 @@ cloud:
       static: us-east-1
       auto: false
     credentials:
-      access-key: AKIASM6QMHDZH6M7NPCN
-      secret-key: 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
+      access-key: ***
+      secret-key: ***
 
 logging:
   level:
